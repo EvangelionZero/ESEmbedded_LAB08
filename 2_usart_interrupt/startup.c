@@ -40,9 +40,6 @@ void reset_handler(void)
 	set_sysclk_pll();
 
 	main();
-
-	while(1)
-		;
 }
 
 void hardfault_handler(void)

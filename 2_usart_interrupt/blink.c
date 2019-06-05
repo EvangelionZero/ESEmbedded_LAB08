@@ -46,10 +46,10 @@ void blink(unsigned int led)
 			;
 
 		//reset GPIOD led pin
-		SET_BIT(GPIO_BASE(GPIO_PORTD) + GPIOx_BSRR_OFFSET, BRy_BIT(led));
+	/*	SET_BIT(GPIO_BASE(GPIO_PORTD) + GPIOx_BSRR_OFFSET, BRy_BIT(led));
 
 		for (i = 0; i < 500000; i++)
-			;
+			;*/
 	}
 }
 
